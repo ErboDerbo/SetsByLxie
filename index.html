@@ -144,7 +144,10 @@
 
   <section>
     <h2>Book Your Appointment</h2>
-    <form>
+    <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
       <label for="nailtype">Select Nail Type:</label>
       <select id="nailtype" name="nailtype">
         <option value="short">Short - $25</option>
@@ -155,6 +158,9 @@
 
       <label for="datetime">Select Preferred Date & Time:</label>
       <input type="datetime-local" id="datetime" name="datetime" required>
+
+      <label for="photo">Upload Inspo Photo (Optional):</label>
+      <input type="file" id="photo" name="photo" accept="image/*">
 
       <input type="submit" value="Submit Booking Request">
     </form>

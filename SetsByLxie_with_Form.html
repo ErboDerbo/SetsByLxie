@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SetsByLxie</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #ffeef5;
+      color: #333;
+    }
+    header {
+      background: #ffb6c1;
+      padding: 50px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 3em;
+      margin: 0;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #e75480;
+      border-bottom: 2px solid #e75480;
+      padding-bottom: 10px;
+    }
+    ul {
+      line-height: 1.7em;
+    }
+    .line-art {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .line-art img {
+      max-width: 100px;
+      opacity: 0.6;
+    }
+    footer {
+      background: #ffb6c1;
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+    a {
+      color: #e75480;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form {
+      background: #fff0f5;
+      padding: 30px;
+      margin-top: 40px;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    select, input[type="datetime-local"], input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #e75480;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #e75480;
+      color: white;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SetsByLxie</h1>
+    <p>Making your nails as beautiful as you are</p>
+  </header>
+
+  <section>
+    <h2>Booking</h2>
+    <ul>
+      <li>DM with your preferred date & time</li>
+      <li>Early scheduling allowed for special occasions</li>
+      <li>Send inspo pics with your request</li>
+      <li>Travel available (within 40 minutes max)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Payment</h2>
+    <ul>
+      <li>$5 deposit required to secure appointments</li>
+      <li>Accepted: Zelle, Cash App, PayPal</li>
+      <li>Remaining balance due in Cash unless approved</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Late & Cancellation Policy</h2>
+    <ul>
+      <li>10 min late = $10 fee</li>
+      <li>15+ min = appointment canceled</li>
+      <li>No-call/no-show = banned from future booking</li>
+      <li>Cancel at least 24–48 hrs in advance</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Guest Policy</h2>
+    <ul>
+      <li>No extra guests unless pre-approved</li>
+      <li>Clients under 15 may bring a parent</li>
+      <li>Unannounced guests = appointment canceled</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Price List</h2>
+    <ul>
+      <li><strong>Basic Full Set:</strong> Short $25 | Medium $40 | Long $60 | XL $75</li>
+      <li><strong>Nail Art (per finger):</strong> French $7 | Glitter $5 | Hand Drawn $10 | Gems $7 | 3D $7</li>
+      <li><strong>Other Services:</strong> Fill $20 | Soak Off $15 | Soak + New Set $10</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Extras</h2>
+    <ul>
+      <li>Reward cards available for cash clients</li>
+      <li>DMs open from 9 AM – 7 PM</li>
+    </ul>
+  </section>
+
+  <section class="line-art">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nail_polish_line_art.svg/2048px-Nail_polish_line_art.svg.png" alt="Nail line art" />
+  </section>
+
+  <section>
+    <h2>Book Your Appointment</h2>
+    <form>
+      <label for="nailtype">Select Nail Type:</label>
+      <select id="nailtype" name="nailtype">
+        <option value="short">Short - $25</option>
+        <option value="medium">Medium - $40</option>
+        <option value="long">Long - $60</option>
+        <option value="xl">XL - $75</option>
+      </select>
+
+      <label for="datetime">Select Preferred Date & Time:</label>
+      <input type="datetime-local" id="datetime" name="datetime" required>
+
+      <input type="submit" value="Submit Booking Request">
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect on Instagram: <a href="https://www.instagram.com/setsbylxie" target="_blank">@setsbylxie</a></p>
+  </footer>
+
+</body>
+</html>
